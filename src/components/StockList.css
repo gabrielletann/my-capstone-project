@@ -1,0 +1,31 @@
+
+.green {
+    color:green;
+    font-weight: bold;
+}
+
+.red {
+    color:red;
+    font-weight: bold;
+}
+
+li {
+list-style-type: none;
+
+}
+
+ul {
+margin: 20px;
+padding: 20px;
+border-style: solid;
+border-width: 10px;
+background-color: #FAF9F9;
+border-color:#BEE3DB;
+border-radius: 10px;
+box-shadow: 4px 4px 8px #8282828c
+}
+
+.ListContainer {
+    padding: 20px;
+    background-color: #FAF9F9;
+}
