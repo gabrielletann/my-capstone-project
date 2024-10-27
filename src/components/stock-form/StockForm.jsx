@@ -18,8 +18,7 @@ function MyForm() {
  
   const fetchStockData = useCallback(async () => {
     const response = await fetch(
-      // `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${name}&apikey=${API_KEY}`
-      'http://localhost:3001'
+      `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${name}&apikey=${API_KEY}`
     );
     return await response.json();
   }, [name, API_KEY]);
